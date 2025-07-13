@@ -3,6 +3,7 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Remove noise from the image
 def medianFiltering():
     root = os.getcwd()
     imgPath = os.path.join(root, 'demoImages//dog.png')

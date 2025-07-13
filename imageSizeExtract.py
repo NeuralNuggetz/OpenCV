@@ -3,7 +3,7 @@ import os
 import matplotlib.pyplot as plt
 
 root = os.getcwd()
-imgPath = os.path.join(root, 'demoImages\\dog.png')
+imgPath = os.path.join(root, 'demoImages\\freelancer.jpeg')
 img = cv.imread(imgPath)
 if img is None:
     print(f"Failed to load image at {imgPath}")
